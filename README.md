@@ -32,3 +32,15 @@ These datasets contain synthetic data and in some cases data that includes human
 
 ## License
 The COIG dataset that is authored by BAAI is released under an Apache 2.0 license. However, the data also includes content licensed under other permissive licenses such as unnatural instructions data which is licensed under MIT License, or web-crawled data which is used under fair use principles.
+
+## BibTeX & Citation
+```
+@misc{zhang2023chinese,
+      title={Chinese Open Instruction Generalist: A Preliminary Release}, 
+      author={Ge Zhang and Yemin Shi and Ruibo Liu and Ruibin Yuan and Yizhi Li and Siwei Dong and Yu Shu and Zhaoqun Li and Zekun Wang and Chenghua Lin and Wenhao Huang and Jie Fu},
+      year={2023},
+      eprint={2304.07987},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
