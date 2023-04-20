@@ -2,9 +2,9 @@
 
 We propose the Chinese Open Instruction Generalist (**COIG**) project to maintain a harmless, helpful, and diverse set of Chinese instruction corpora. We welcome all researchers in the community to contribute to the corpus set and collaborate with us. We only release the first chip of COIG to help the Chinese LLMs' development in the exploration stage and appeal to more researchers joining us in building COIG. We introduce a manually verified translated general instruction corpus, a manually annotated exam instruction corpus, a human value alignment instruction corpus, a multi-round counterfactual correction chat corpus, and a leetcode instruction corpus. We provide these new instruction corpora to assist the community with instruction tuning on Chinese LLMs. These instruction corpora are also template workflows for how new Chinese instruction corpora can be built and expanded effectively.
 
-It is best to download the individual data files directly that you wish to use instead of using HF load_datasets. https://huggingface.co/datasets/BAAI/COIG/tree/main
+It is best to download the individual data files directly that you wish to use instead of using HF load_datasets. All datasets can be downloaded from: https://huggingface.co/datasets/BAAI/COIG/tree/main
 
-This model card is modified from [OIG](https://huggingface.co/datasets/laion/OIG).
+This dataset card is modified from [OIG](https://huggingface.co/datasets/laion/OIG).
 
 ### Translated Instructions (67,798)
 There are 67,798 instructions in total, which are composed of 1,616 task descriptions in [Super-NaturalInstructions](https://arxiv.org/abs/2204.07705) along with a single instance for each of them, 175 seed tasks in [Self-Instruct](https://arxiv.org/abs/2212.10560), and 66,007 instructions from [Unnatural Instructions](https://arxiv.org/abs/2212.09689). To reduce the cost and further improve the quality of the instruction corpus, we separate the translation procedure into three phases: automatic translation, manual verification, and manual correction. These strict quality verification procedures assure the reliability of the translated corpus.
@@ -22,7 +22,7 @@ Given that the code-related tasks potentially contribute to the ability emergenc
 ## Support this project
 Your contributions and feedback support the open source ecosystem, improve the bot and provide datasets for future AI research. To participate you can:
 
-Submit Github issues, track issues and help create datasets that need improvement. https://github.com/FlagOpen/FlagInstruct
+Submit Github issues, track issues and help create datasets that need improvement. https://github.com/BAAI-Zlab/COIG
 
 ## Update: April 16, 2023
 - Release the five datasets of COIG.
